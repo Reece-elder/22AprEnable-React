@@ -26,6 +26,11 @@ const ItemList = () => {
         }
 ];
 
+// Exercise - Using your social media animal page thing, update your animal component to contain the following:
+// - name, image, age, favFood, isFluffy (boolean)
+// - Pass this data to your animal component as a prop 
+// - Stretch goal, create an array of objects, pass an index of this array as a prop
+
     return ( 
         <>
             <Item data={dataArray[0]}/>
