@@ -1,6 +1,6 @@
 import { useState } from "react";
+import ControlledInput from "./ControlledInput";
 import Display from "./Display";
-import Setter from "./Setter";
 
 const Manager = () => {
 
@@ -14,9 +14,12 @@ const Manager = () => {
     // Make sure you import useState - import { useState } from "react";
     const[stateValue, setStateValue] = useState("");
 
+    // Exercise - Use 
+
     return ( 
         <>
-            <Setter setData={setStateValue} />
+            {/* <Setter setData={setStateValue} /> */}
+            <ControlledInput setData={setStateValue}/>
             <Display data={stateValue} />
         </>
      );
