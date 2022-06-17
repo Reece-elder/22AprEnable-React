@@ -5,6 +5,7 @@ import './css/App.css';
 import Parent from './components/002-props/Parent';
 
 import Page from './components/002-props/commerce-shop/Page';
+import CardList from './components/002-props/animal-contact/CardList';
 
 /* Exercise
 Create a social media page with the following components: 
@@ -22,7 +23,8 @@ function App() {
       <h2> Hello World! </h2>
       {/* <Page/> */}
       {/* <Parent/> */}
-      <Page/>
+      {/* <Page/> */}
+      <CardList/>
     </div>
   );
 }
