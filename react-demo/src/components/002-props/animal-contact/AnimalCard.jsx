@@ -9,7 +9,12 @@ const AnimalCard = ({data}) => {
     return ( 
         <>
             <h3> Name: {name} </h3>
-            <h4> FavFood: {favFood} </h4>
+            <h4> FavFood: </h4>
+            <ul>
+                {favFood.map((food) => {
+                    return <li> {food} </li>
+                })}
+            </ul>
             <h4> Age: {age} </h4>
             <img src={imageUrl} alt={name} width="350px"/>
             {/* Converting our boolean true -> "true" / false -> "false" */}

@@ -6,6 +6,7 @@ import Parent from './components/002-props/Parent';
 
 import Page from './components/002-props/commerce-shop/Page';
 import CardList from './components/002-props/animal-contact/CardList';
+import Manager from './components/003-state/Manager';
 
 /* Exercise
 Create a social media page with the following components: 
@@ -24,7 +25,8 @@ function App() {
       {/* <Page/> */}
       {/* <Parent/> */}
       {/* <Page/> */}
-      <CardList/>
+      {/* <CardList/> */}
+      <Manager/>
     </div>
   );
 }
